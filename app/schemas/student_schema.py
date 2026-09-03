@@ -6,6 +6,11 @@ class StudentCreate(BaseModel):
     age: int
     course: str
 
+class StudentUpdate(BaseModel):
+    name: str
+    age: int
+    course: str
+
 
 class StudentResponse(BaseModel):
     id: int
